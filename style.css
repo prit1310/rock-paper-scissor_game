@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #ccd5ae;
+    color: #e63946;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+.gameContent{
+    margin-top: 3rem;
+    font-size: 1rem;
+}
+#computer{
+    padding-top: 2rem;
+}
+#result{
+    padding-top: 2rem;
+}
+#rock{
+    border-radius: 100px;
+    font-size: 1.5rem;
+}
+#paper{
+    border-radius: 100px;
+    font-size: 1.5rem;
+}
+#scissor{
+    border-radius: 100px;
+    font-size: 1.5rem;
+}
+.reset button{
+    width: 100px;
+    height: 40px;
+    background-color: #2a9d8f;
+    color: white;
+}
+.reset{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    border: none;
+}
+#resetBtn{
+    border-radius: 100px;
+    font-size: 1.5rem;
+}
+.scoreboard{
+    margin-top: 3rem;
+    font-size: 1.5rem;
+}
+#playerWin{
+    padding-top: 32px;
+}
+#computerWin{
+    padding-top: 32px;
+}
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #081b31;
+}
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+.arrange{
+    display: flex;
+    justify-content: space-around;
+}
